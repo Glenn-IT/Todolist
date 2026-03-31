@@ -9,8 +9,19 @@
   <body>
     <div class="container">
       <header>
-        <h1>✅ My Todo List</h1>
-        <p class="subtitle" id="date-display"></p>
+        <div class="header-inner">
+          <h1><span class="emoji">✅</span> My Todo List</h1>
+          <p class="subtitle" id="date-display"></p>
+          <div class="progress-wrap">
+            <div class="progress-label">
+              <span>Progress</span>
+              <span id="progress-text">0 / 0 done</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
+          </div>
+        </div>
       </header>
 
       <div class="input-section">
